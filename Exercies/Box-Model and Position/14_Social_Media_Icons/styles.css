@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 2em;
+}
+
+div,ul,li,i {
+    display: inline-block;
+    padding: 0;
+}
+
+li {
+
+    margin: 0.4em;
+    background-color: rgb(220, 217, 217);
+    border-radius: 50%;
+}
+
+i {
+    padding: 0.5em;
+    font-size: 2em;
+}
+
+.fa-facebook:hover {
+    color: rgb(4, 67, 175);
+    transition: 0.3s ease-in;
+}
+
+.fa-twitter:hover {
+    color: rgb(0, 94, 255);
+    transition: 0.3s ease-in;
+}
+
+.fa-google-plus:hover {
+    color:rgb(243, 80, 4);
+    transition: 0.3s ease-in;
+}
+
+.fa-linkedin:hover {
+    color:rgb(1, 157, 229);
+    transition: 0.3s ease-in;
+}
+
+.fa-instagram:hover {
+    color: rgb(117, 192, 245);
+    transition: 0.3s ease-in;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(238, 238, 238);
+    
+}
+
+aside {
+    float:right;
+    width: 65%;
+}
+
+article {
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    margin-left: 2em;
+}
+
+img {
+    width: 370px;
+}
+
+section {
+    margin-top: 2em;
+}
+

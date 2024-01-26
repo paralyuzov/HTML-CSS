@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 4em;
+}
+
+.site-header {
+    border-bottom: 2px solid black;
+    position: relative;
+
+
+}
+
+.site-title {
+    font-size: 2.5em;
+    display: inline-block;
+    font-weight: bold;
+    width: 30%;
+    margin: 0;
+    margin-bottom: 0.1em;
+
+}
+
+.site-header nav {
+    float: right;
+    position: relative;
+    bottom: 1em;
+
+}
+
+.site-header nav ul {
+    padding: 0;
+}
+
+
+.site-header nav li {
+    display: inline;
+    margin: 0.5em;
+}
+
+.site-header nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: green;
+}
+
+.fist-section img {
+    border: 1px solid red;
+    float: right;
+    margin-left: 2em;
+    border: 3px solid black;
+}
+
+.third-section img {
+    float: left;
+}
+
+.site-main {
+    position: relative;
+}
+
+article {
+    width: 70%;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+aside li a {
+    color: rgb(2, 133, 2);
+    text-decoration: none;
+
+}
+
+.second-section p:nth-child(3) {
+
+    display: inline-block;
+    width: 50%;
+    position: relative;
+
+}
+
+.second-section p:nth-child(5) {
+ margin-top: 2em;
+}
+
+blockquote {
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    border-left: 2px solid lightgray;
+    padding-left: 2em;
+
+
+}
+
+blockquote p:nth-child(1) {
+    font-style: italic;
+}
+
+blockquote p:nth-child(2) {
+    font-style: italic;
+    float: right;
+}
+
+.third-section header {
+    margin-top: 3em;
+}
+
+.third-section img {
+    margin-right: 1em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
